@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="vi">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="witdth=device-width, initial-sacle=1.0">
-        <script src="https://kit.fontawesome.com/3e14c3f754.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
-        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-        <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-
-        <title>BK 2Hand</title>
-
-    </head>
-    <body>
       <header>
         <div class="logo" >
             <img src="image/logo.PNG" alt="" style="width: 40px;">

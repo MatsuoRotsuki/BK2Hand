@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/bk2hand', function () {
+Route::get('/home', function () {
     return view('home');
+});
+Route::get('/search', function () {
+    return view('search');
 });

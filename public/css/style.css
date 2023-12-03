@@ -57,6 +57,7 @@ header {
     height: 310px;
     background-color: rgba(0, 0, 0, 0.2);
     display: none;
+    z-index: 999;
 
 }
 .submenu-content {
@@ -229,11 +230,11 @@ header {
     padding-top: 120px;
     padding-bottom: 10px;
     text-align: center;
+    
 }
 .pagination {
     display: inline-block;
 }
-  
 .pagination a {
     color: black;
     float: left;
@@ -243,7 +244,6 @@ header {
     border: 1px solid #ddd;
     margin: 0 4px;
 }
-  
 .pagination a.active {
     background-color: #EC1B1B;
     color: white;
@@ -251,4 +251,86 @@ header {
 }
 .pagination a:hover:not(.active) {
     background-color: #ddd;
+}
+/* --------search-gallery------- */
+.search-gallery {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.search-gallery-content-product {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.search-gallery-content-product span{
+    display: flex;
+}
+.search-gallery-content-product-item {
+    position: relative;
+    width: 50%;
+    padding: 20px 12px 12px 20px;
+    cursor: pointer;
+    text-align: center;
+    border: 10px solid rgb(235, 233, 233);
+}
+.search-gallery-content-product-item-text {
+    margin-left: 20px;
+}
+.search-gallery-content-product-item-text p {
+    color: #f93f3f;
+}
+.search-gallery-content-product-item:hover{
+    background-color: #ddd;
+}
+.search-gallery-content-product-item  img {
+    width: 100px;
+}
+/* ---------filter-------- */
+.filter-content {
+    display: flex;
+    margin-top: 30px;
+}
+.filter-content-item {
+    display: block;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.filter-content-item span button {
+    background-color: white;
+    height: 30px;
+    padding-left: 2px;
+    border: 2px solid rgb(235, 233, 233);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+.filter-content-item span button:hover {
+    background-color: #ddd;
+}
+.filter-content-item i {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+/* -----subfilter------- */
+.filter-content-item li {
+    position: relative;
+}
+.subfilter {
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 999;
+
+}
+.subfilter-content {
+    width: 600px;
+    height: 355px;
+    background-color: white;
 }
