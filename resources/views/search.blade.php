@@ -85,6 +85,7 @@
                     const element = document.getElementById('timeUsedSelector')
                     element.style.display = element.style.display == 'none' ? 'block' : 'none'; 
                 }
+                const sortByPrice = document.getElementById('sortByPrice');
                 const priceRangeOptions = priceRangeSelector.querySelectorAll('div')
                 priceRangeOptions.forEach((element) => element.addEventListener('click', () => {
                     priceRangeTitleElement.innerHTML = `${priceRangeStartTitle}: ${element.innerHTML}`;
@@ -110,7 +111,6 @@
                     window.location.href = url
                 })
 
-                const sortByPrice = document.getElementById('sortByPrice');
                 sortByPrice.addEventListener('click', () => {
                     switch (url.searchParams.get('sortByPrice'))
                     {
